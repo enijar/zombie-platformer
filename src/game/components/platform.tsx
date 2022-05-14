@@ -17,7 +17,8 @@ export default function Platform({ size }: Props) {
     tex.magFilter = THREE.NearestFilter;
     tex.wrapT = THREE.RepeatWrapping;
     tex.wrapS = THREE.RepeatWrapping;
-    tex.repeat.set(...size);
+    const scale = 4;
+    tex.repeat.set(size[0] * scale, size[1] * scale);
   });
 
   return (
