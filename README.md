@@ -17,3 +17,7 @@ cp env.example.ts env.ts
 npm install
 npm run build
 ```
+
+### Notes
+
+- Models are from [Mixamo](https://www.mixamo.com/#/?page=1&query=walk)

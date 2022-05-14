@@ -18,7 +18,7 @@ export default function Scene({ position, rotation, children }: Props) {
   useFrame(() => {
     const group = groupRef.current;
     if (group === null) return;
-    const min = config.platform.size[1] * -0.1;
+    const min = config.platform.size[1] * -0.25;
     group.position.y -= speed;
     if (group.position.y <= min) {
       group.position.y = 0;

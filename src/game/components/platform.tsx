@@ -24,7 +24,7 @@ export default function Platform({ size }: Props) {
     <group>
       <mesh>
         <planeBufferGeometry args={size} />
-        <meshBasicMaterial map={texture} />
+        <meshStandardMaterial map={texture} />
       </mesh>
     </group>
   );
