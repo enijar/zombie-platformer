@@ -17,6 +17,7 @@ jobs:
 
       - name: Install & Build
         run: |
+          cp env.example.ts env.ts
           npm ci
           PUBLIC_PATH=./ npm run build
 
