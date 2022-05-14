@@ -23,7 +23,8 @@ export const AppReset = createGlobalStyle`
 
   html,
   body,
-  #root {
+  #root,
+  main {
     width: 100%;
     height: 100%;
   }
