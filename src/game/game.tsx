@@ -1,7 +1,7 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import config from "@/game/config";
-import Platform from "@/game/components/platform/platform";
+import Platform from "@/game/components/platform";
 import Camera from "@/game/components/camera";
 import Scene from "@/game/components/scene";
 
